@@ -1,5 +1,9 @@
 ---
 import Layout from '../layouts/Layout.astro';
+// icons
+import Email from '../components/icons/email.astro';
+import Github from '../components/icons/github.astro';
+import Linkedin from '../components/icons/linkedin.astro';
 ---
 
 <Layout title="Grogan Tech">
@@ -7,6 +11,17 @@ import Layout from '../layouts/Layout.astro';
 		<div class="text-center flex flex-col gap-4 text-white">
 			<h1 class="text-6xl">Grogan <span class="text-gradient">Tech</span></h1>
 			<h2 class="uppercase">James Grogan - Software Engineer</h2>
+			<div class="flex justify-center gap-4 text-gray-500">
+				<a href="https://github.com/jamesgrogantech" target="_blank" rel="noopener">
+					<Github class="w-8 h-8" />
+				</a>
+				<a href="https://www.linkedin.com/in/james-grogan-software/" target="_blank" rel="noopener">
+					<Linkedin class="w-8 h-8" />
+				</a>
+				<a href="mailto:james@grogan.tech">
+					<Email class="w-8 h-8" />
+				</a>
+				
 		</div>
 	</main>
 </Layout>
