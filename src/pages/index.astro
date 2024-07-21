@@ -1,0 +1,24 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Grogan Tech">
+	<main class="flex justify-center w-full min-h-svh items-center">
+		<div class="text-center flex flex-col gap-4 text-white">
+			<h1 class="text-6xl">Grogan <span class="text-gradient">Tech</span></h1>
+			<h2 class="uppercase">James Grogan - Software Engineer</h2>
+		</div>
+	</main>
+</Layout>
+
+<style>
+
+	.text-gradient {
+		background-image: var(--accent-gradient);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-size: 400%;
+		background-position: 0%;
+	}
+
+</style>
